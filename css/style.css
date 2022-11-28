@@ -1,4 +1,12 @@
-/*UTILITIES*/
-* {
+/* UTILITIES * {
     font-family: 'Bebas Neue', cursive;
+} */
+
+
+/**** My Style ****/
+
+.icon-down-sizing {
+    height: 100%;
+    width: 60%;
+
 }
