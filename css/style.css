@@ -6,6 +6,7 @@
 /**** My Style ****/
 header {
     height: 80px;
+    z-index: 3;
 }
 
 .icon-down-sizing {
@@ -18,4 +19,39 @@ header {
     width: 100px;
 }
 
-/***buttons***/
+/***jumbotrone***/
+#giochi {
+    padding-top: 120px;
+}
+
+#giochi #carouselExampleCaptions {
+    z-index: 0
+}
+
+#carouselExampleCaptions .carousel-inner {
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+/* #carouselExampleCaptions .carousel-indicators {
+    background-color: rgba(0, 0, 0, 0.555);
+} */
+/****colors****/
+
+.cust-bg-black-op {
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+#results-games .row .col img {
+    width: 100%;
+    cursor: pointer;
+}
+
+#results .col img: {
+    border: 2px solid rgb(236, 19, 110)
+}
+
+.cust-filter:hover {
+    -webkit-filter: opacity(.7);
+    filter: opacity(.7);
+    border: 2px solid rgb(236, 19, 110);
+}
