@@ -4,9 +4,18 @@
 
 
 /**** My Style ****/
+header {
+    height: 80px;
+}
 
 .icon-down-sizing {
     height: 100%;
     width: 60%;
-
 }
+
+.logo-down-sizing {
+    height: 50px;
+    width: 100px;
+}
+
+/***buttons***/
