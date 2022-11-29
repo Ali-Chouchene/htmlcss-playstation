@@ -41,6 +41,10 @@ header {
     background-color: rgba(0, 0, 0, 0.74);
 }
 
+.cust-bg-gray {
+    background-color: rgb(190, 188, 187);
+}
+
 .row .col .logo-down-sizing {
     width: 15%;
     object-fit: contain;
@@ -66,4 +70,10 @@ header {
     opacity: 1;
     border: 3px solid rgb(20, 52, 231);
     scale: 1;
+}
+
+/***playstation plus***/
+
+.cust-bg-gray #playplus {
+    height: 400px;
 }
