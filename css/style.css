@@ -19,7 +19,28 @@ header {
     width: 100px;
 }
 
-/***jumbotrone***/
+main {
+    padding-top: 20px;
+}
+
+/***jumbotron***/
+
+#first-jumbo {
+    padding-top: 220px;
+    background-image: url(../img/jumbo-bg.png);
+}
+
+#second-jumbo {
+
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.jumbotron {
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 
 #giochi #carouselExampleCaptions {
@@ -69,9 +90,7 @@ header {
 }
 
 .cust-filter:hover {
-    opacity: 1;
     border: 3px solid rgb(20, 52, 231);
-    scale: 1;
 }
 
 /***playstation plus***/
